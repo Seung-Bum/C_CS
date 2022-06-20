@@ -1,8 +1,8 @@
-#include <studio.h>
+#include <stdio.h>
 
 // 두 수의 값을 서로 변환하는 포인터 함수
 
-void swap(int *x, int *y) 
+void swap(int *x, int *y)
 {
     int temp;
     temp = *x;
@@ -10,7 +10,7 @@ void swap(int *x, int *y)
     *y = temp;
 }
 
-int main (void)
+int main(void)
 {
     int x = 1;
     int y = 2;
