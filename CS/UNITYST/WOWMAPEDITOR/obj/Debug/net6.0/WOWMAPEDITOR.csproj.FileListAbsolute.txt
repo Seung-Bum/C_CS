@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\bin\Debug\net6.0\WOWMAPEDITOR.exe
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\bin\Debug\net6.0\WOWMAPEDITOR.deps.json
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\bin\Debug\net6.0\WOWMAPEDITOR.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\bin\Debug\net6.0\WOWMAPEDITOR.dll
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\bin\Debug\net6.0\WOWMAPEDITOR.pdb
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.dll
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\refint\WOWMAPEDITOR.dll
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.pdb
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\WOWMAPEDITOR.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\WOWMAPEDITOR\obj\Debug\net6.0\ref\WOWMAPEDITOR.dll
