@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\FuncEx\bin\Debug\net6.0\FuncEx.exe
+F:\git\C_Basic\CS\UNITYST\FuncEx\bin\Debug\net6.0\FuncEx.deps.json
+F:\git\C_Basic\CS\UNITYST\FuncEx\bin\Debug\net6.0\FuncEx.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\FuncEx\bin\Debug\net6.0\FuncEx.dll
+F:\git\C_Basic\CS\UNITYST\FuncEx\bin\Debug\net6.0\FuncEx.pdb
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.dll
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\refint\FuncEx.dll
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.pdb
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\FuncEx.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\FuncEx\obj\Debug\net6.0\ref\FuncEx.dll
