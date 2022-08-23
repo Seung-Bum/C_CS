@@ -14,17 +14,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "index", "index", "{E5F4B8ED
 		index.txt = index.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CodeStartAndReading", "CodeStartAndReading\03CodeStartAndReading.csproj", "{00735AEF-AFFA-40B5-A2F3-EA017F4874B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03CodeStartAndReading", "CodeStartAndReading\03CodeStartAndReading.csproj", "{00735AEF-AFFA-40B5-A2F3-EA017F4874B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberVar", "MemberVar\MemberVar.csproj", "{7AE96A24-769B-4938-B034-834823D9D30A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemberVar", "MemberVar\MemberVar.csproj", "{7AE96A24-769B-4938-B034-834823D9D30A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05MemberFunc", "05MemberFunc\05MemberFunc.csproj", "{89969A53-C9F7-4A8E-9317-09967B1F5EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05MemberFunc", "05MemberFunc\05MemberFunc.csproj", "{89969A53-C9F7-4A8E-9317-09967B1F5EFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06LocalVar", "LocalVar\06LocalVar.csproj", "{EA2F287A-C76A-4C20-9BAB-3DED322F2E3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06LocalVar", "LocalVar\06LocalVar.csproj", "{EA2F287A-C76A-4C20-9BAB-3DED322F2E3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07ClassAccess", "07ClassAccess\07ClassAccess.csproj", "{F401E568-EE39-4116-B311-13999486B272}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07ClassAccess", "07ClassAccess\07ClassAccess.csproj", "{F401E568-EE39-4116-B311-13999486B272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncEx", "FuncEx\FuncEx.csproj", "{FFA7B876-12F0-462D-BC08-6AC0D15D8941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08FuncEx", "FuncEx\08FuncEx.csproj", "{FFA7B876-12F0-462D-BC08-6AC0D15D8941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09Operator", "09Operator\09Operator.csproj", "{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +70,10 @@ Global
 		{FFA7B876-12F0-462D-BC08-6AC0D15D8941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFA7B876-12F0-462D-BC08-6AC0D15D8941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFA7B876-12F0-462D-BC08-6AC0D15D8941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

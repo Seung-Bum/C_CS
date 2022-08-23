@@ -10,3 +10,4 @@
 06 LocalVar
 07 ClassAccess
 08 FuncEx
+09 Operator
