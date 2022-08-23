@@ -26,7 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07ClassAccess", "07ClassAcc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08FuncEx", "FuncEx\08FuncEx.csproj", "{FFA7B876-12F0-462D-BC08-6AC0D15D8941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09Operator", "09Operator\09Operator.csproj", "{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09Operator", "09Operator\09Operator.csproj", "{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Memory", "10Memory\10Memory.csproj", "{07F80E03-9AFD-4F8B-86C2-1827F6C0A68A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +76,10 @@ Global
 		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E5BBD5-E569-4B2E-BCF6-9FC68DF9A7D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F80E03-9AFD-4F8B-86C2-1827F6C0A68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F80E03-9AFD-4F8B-86C2-1827F6C0A68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F80E03-9AFD-4F8B-86C2-1827F6C0A68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F80E03-9AFD-4F8B-86C2-1827F6C0A68A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

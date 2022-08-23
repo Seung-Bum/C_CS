@@ -1,7 +1,40 @@
-﻿internal class Program
+﻿// 모든 프로그램은 공짜는 없다.
+// 메모리를 지불한다.
+// 메모리의 구조를 안다는 것은
+// 코드의 동작원리를 아는 것과 같다.
+
+class Player
 {
-    private static void Main(string[] args)
+    int HP = 100;
+    int AT = 10;
+    public void Damage(int Dmg)
     {
-        Console.WriteLine("Hello, World!");
+        // int Dmg는 지역변수라 함수가 끝나면 사라진다.
     }
+}
+
+class Program
+{
+    //  이곳을 시작이라고 잡은 함수 C#의 규칙
+    // 함수의 실행조차 공짜가 없다.
+    // 함수실행시 스택으로 들어갔다가 실행이 모두 끝나면 사라진다.
+    static void Main()
+    {   
+
+        // 함수는 메모리화 되지 않느다.
+        Console.WriteLine("메모리 1차 함수");
+
+        // 지역변수 + a로 계산되느데
+        // 최소한 지역변수를 다 포함할수 있는 크기만큼은 커야한다.
+        // 4바이트 정도는 되야함
+        int Value = 0;
+
+        // 객체를 만들었다.
+        // 객체를 만들었다는 것은 메모리를 지불했다는 것
+        Player Newplayer = new Player();
+
+        Newplayer.Damage(10);
+
+      // 함수가 시작되면 그만큼 크기의 박스가 만들어지고 실행된 후에 사라진다.
+    } // 프로그램이 끝났다느것은 Main 함수까지 끝난것을 말한다.
 }

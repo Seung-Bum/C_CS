@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\10Memory\bin\Debug\net6.0\10Memory.exe
+F:\git\C_Basic\CS\UNITYST\10Memory\bin\Debug\net6.0\10Memory.deps.json
+F:\git\C_Basic\CS\UNITYST\10Memory\bin\Debug\net6.0\10Memory.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\10Memory\bin\Debug\net6.0\10Memory.dll
+F:\git\C_Basic\CS\UNITYST\10Memory\bin\Debug\net6.0\10Memory.pdb
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.dll
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\refint\10Memory.dll
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.pdb
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\10Memory.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\10Memory\obj\Debug\net6.0\ref\10Memory.dll
