@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\bin\Debug\net6.0\12Memory02_Reference.exe
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\bin\Debug\net6.0\12Memory02_Reference.deps.json
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\bin\Debug\net6.0\12Memory02_Reference.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\bin\Debug\net6.0\12Memory02_Reference.dll
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\bin\Debug\net6.0\12Memory02_Reference.pdb
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.dll
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\refint\12Memory02_Reference.dll
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.pdb
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\12Memory02_Reference.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\12Memory02_Reference\obj\Debug\net6.0\ref\12Memory02_Reference.dll

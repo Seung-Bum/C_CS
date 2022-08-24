@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\bin\Debug\net6.0\11Memory_Value.exe
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\bin\Debug\net6.0\11Memory_Value.deps.json
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\bin\Debug\net6.0\11Memory_Value.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\bin\Debug\net6.0\11Memory_Value.dll
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\bin\Debug\net6.0\11Memory_Value.pdb
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.dll
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\refint\11Memory_Value.dll
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.pdb
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\11Memory_Value.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\11Memory_Value\obj\Debug\net6.0\ref\11Memory_Value.dll
