@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\13StaticVar\bin\Debug\net6.0\13StaticVar.exe
+F:\git\C_Basic\CS\UNITYST\13StaticVar\bin\Debug\net6.0\13StaticVar.deps.json
+F:\git\C_Basic\CS\UNITYST\13StaticVar\bin\Debug\net6.0\13StaticVar.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\13StaticVar\bin\Debug\net6.0\13StaticVar.dll
+F:\git\C_Basic\CS\UNITYST\13StaticVar\bin\Debug\net6.0\13StaticVar.pdb
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.dll
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\refint\13StaticVar.dll
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.pdb
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\13StaticVar.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\13StaticVar\obj\Debug\net6.0\ref\13StaticVar.dll
