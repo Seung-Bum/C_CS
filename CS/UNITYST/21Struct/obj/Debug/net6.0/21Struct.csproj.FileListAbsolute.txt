@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\21Struct\bin\Debug\net6.0\21Struct.exe
+F:\git\C_Basic\CS\UNITYST\21Struct\bin\Debug\net6.0\21Struct.deps.json
+F:\git\C_Basic\CS\UNITYST\21Struct\bin\Debug\net6.0\21Struct.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\21Struct\bin\Debug\net6.0\21Struct.dll
+F:\git\C_Basic\CS\UNITYST\21Struct\bin\Debug\net6.0\21Struct.pdb
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.dll
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\refint\21Struct.dll
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.pdb
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\21Struct.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\21Struct\obj\Debug\net6.0\ref\21Struct.dll

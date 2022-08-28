@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\19if\bin\Debug\net6.0\19if.exe
+F:\git\C_Basic\CS\UNITYST\19if\bin\Debug\net6.0\19if.deps.json
+F:\git\C_Basic\CS\UNITYST\19if\bin\Debug\net6.0\19if.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\19if\bin\Debug\net6.0\19if.dll
+F:\git\C_Basic\CS\UNITYST\19if\bin\Debug\net6.0\19if.pdb
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.dll
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\refint\19if.dll
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.pdb
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\19if.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\19if\obj\Debug\net6.0\ref\19if.dll

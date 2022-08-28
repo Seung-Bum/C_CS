@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\17While\bin\Debug\net6.0\17While.exe
+F:\git\C_Basic\CS\UNITYST\17While\bin\Debug\net6.0\17While.deps.json
+F:\git\C_Basic\CS\UNITYST\17While\bin\Debug\net6.0\17While.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\17While\bin\Debug\net6.0\17While.dll
+F:\git\C_Basic\CS\UNITYST\17While\bin\Debug\net6.0\17While.pdb
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.dll
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\refint\17While.dll
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.pdb
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\17While.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\17While\obj\Debug\net6.0\ref\17While.dll

@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\TextRPG001\bin\Debug\net6.0\TextRPG001.exe
+F:\git\C_Basic\CS\UNITYST\TextRPG001\bin\Debug\net6.0\TextRPG001.deps.json
+F:\git\C_Basic\CS\UNITYST\TextRPG001\bin\Debug\net6.0\TextRPG001.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\TextRPG001\bin\Debug\net6.0\TextRPG001.dll
+F:\git\C_Basic\CS\UNITYST\TextRPG001\bin\Debug\net6.0\TextRPG001.pdb
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.dll
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\refint\TextRPG001.dll
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.pdb
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\TextRPG001.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\TextRPG001\obj\Debug\net6.0\ref\TextRPG001.dll

@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\18for\bin\Debug\net6.0\18for.exe
+F:\git\C_Basic\CS\UNITYST\18for\bin\Debug\net6.0\18for.deps.json
+F:\git\C_Basic\CS\UNITYST\18for\bin\Debug\net6.0\18for.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\18for\bin\Debug\net6.0\18for.dll
+F:\git\C_Basic\CS\UNITYST\18for\bin\Debug\net6.0\18for.pdb
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.dll
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\refint\18for.dll
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.pdb
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\18for.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\18for\obj\Debug\net6.0\ref\18for.dll
