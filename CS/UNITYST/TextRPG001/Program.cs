@@ -1,12 +1,44 @@
 ﻿// 클래스는 왠만하면 자기의 일은 스스로하자
 // 캡슐화
-class Player
+// 코드재활용성을 향상시키는 문법 "상속"
+
+
+// 플레이어와 몬스터가 똑같이 공격력과, HP를 가지고 있어서
+// 중복을 피하기위해 파이트유닛을 만들어 상속시킴
+class FightUnit
+{
+    protected String Name = "None";
+    protected int AT = 10;
+    protected int HP = 50;
+    protected int MAXHP = 100;
+
+    public void StatusRender()
+    {
+        Console.WriteLine("-------------------------------------");
+        Console.WriteLine("**" + Name + "**");
+        Console.Write("공격력 : ");
+        Console.WriteLine(AT);
+        Console.Write("체력 : ");
+        Console.Write(HP);
+        Console.Write("/");
+        Console.WriteLine(MAXHP);
+        Console.WriteLine("-------------------------------------");
+    }
+
+    public void Damage(FightUnit _OtherUnit)
+    {
+        HP -= _OtherUnit.AT;
+    }
+}
+
+
+class Player : FightUnit
 {   
     // 필드를 public 으로 만들어서 해결하지 말라
     // 맴버변수는 무조건 private
-    private int AT = 10;
-    private int HP = 50;
-    private int MAXHP = 100;
+    // private int AT = 10;
+    // private int HP = 50;
+    // private int MAXHP = 100;
 
     public int getAT()
     { 
@@ -18,52 +50,26 @@ class Player
         return this.HP;
     }
 
-    public void SatatusRender()
+    public void PrintHp()
     {
-        Console.WriteLine("-------------------------------------");
-        Console.WriteLine("**플레이어**");
-        Console.Write("공격력 : ");
-        Console.WriteLine(AT);
-        Console.Write("체력 : ");
+        Console.Write("현재 플레이어의 HP는");
         Console.Write(HP);
-        Console.Write("/");
-        Console.WriteLine(MAXHP);
-        Console.WriteLine("-------------------------------------");
+        Console.WriteLine("입니다.");
+        Console.ReadKey();
     }
 
-    public void Heal()
+    public int Heal(/*Player this*/)
     {
         HP = MAXHP;
+        return HP;
     }
 }
 
-class Monster
+class Monster : FightUnit
 {
-    private int HP = 10;
-    private int AT = 5;
-    private int MAXHP = 10;
-
     public int getHP()
     { 
         return this.HP;
-    }
-
-    public void Damage(Player _Player)
-    {
-        HP -= _Player.getAT();       
-    }
-
-    public void SatatusRender()
-    {
-        Console.WriteLine("-------------------------------------");
-        Console.WriteLine("**몬스터**");
-        Console.Write("공격력 : ");
-        Console.WriteLine(AT);
-        Console.Write("체력 : ");
-        Console.Write(HP);
-        Console.Write("/");
-        Console.WriteLine(MAXHP);
-        Console.WriteLine("-------------------------------------");
     }
 
 }
@@ -116,7 +122,7 @@ namespace TextRPG001
             while (true)
             {
                 Console.Clear();
-                _Player.SatatusRender();
+                _Player.StatusRender();
                 Console.WriteLine("마을에서 무슨일을 하시겠습니까?");
                 Console.WriteLine("1. 체력을 회복한다.");
                 Console.WriteLine("2. 무기를 강화한다.");
@@ -140,8 +146,22 @@ namespace TextRPG001
             }
         }
 
-        static void Battle(Player _Player, Monster _Monster)
+        static void Battle(Player _Player)
         {
+            Monster NewMonster = new Monster();
+
+            while (/* 둘중 누군가 죽을때 까지 */ true)
+            {
+                Console.Clear();
+                _Player.StatusRender();
+                NewMonster.StatusRender();
+                Console.ReadKey();
+
+            }
+
+
+
+            /*
             while (true)
             {
                 Console.Clear();
@@ -175,7 +195,7 @@ namespace TextRPG001
                     default:
                         break;
                 }
-            }
+            }*/
         }
 
         private static void Main(string[] args)
@@ -212,7 +232,7 @@ namespace TextRPG001
                         Town(NewPlayer);
                         break;
                     case STARTSELECT.SELECTBATTLE:
-                        Battle(NewPlayer, NewMonster);
+                        Battle(NewPlayer);
                         break;
                     default:
                         break;

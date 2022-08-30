@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\git\\C_Basic\\CS\\UNITYST\\21Struct\\22Struct.csproj",
-      "projectName": "22Struct",
-      "projectPath": "F:\\git\\C_Basic\\CS\\UNITYST\\21Struct\\22Struct.csproj",
+      "projectUniqueName": "F:\\git\\C_Basic\\CS\\UNITYST\\23Inheritance\\23Inheritance.csproj",
+      "projectName": "23Inheritance",
+      "projectPath": "F:\\git\\C_Basic\\CS\\UNITYST\\23Inheritance\\23Inheritance.csproj",
       "packagesPath": "C:\\Users\\SeungBum\\.nuget\\packages\\",
-      "outputPath": "F:\\git\\C_Basic\\CS\\UNITYST\\21Struct\\obj\\",
+      "outputPath": "F:\\git\\C_Basic\\CS\\UNITYST\\23Inheritance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\SeungBum\\AppData\\Roaming\\NuGet\\NuGet.Config",
