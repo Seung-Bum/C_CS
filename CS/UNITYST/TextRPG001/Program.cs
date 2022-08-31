@@ -5,6 +5,9 @@
 
 // 플레이어와 몬스터가 똑같이 공격력과, HP를 가지고 있어서
 // 중복을 피하기위해 파이트유닛을 만들어 상속시킴
+using System.Xml.Linq;
+using static System.Net.Mime.MediaTypeNames;
+
 class FightUnit
 {
     protected String Name = "None";
@@ -28,17 +31,23 @@ class FightUnit
     public void Damage(FightUnit _OtherUnit)
     {
         HP -= _OtherUnit.AT;
+        Console.WriteLine(_OtherUnit.Name + "이 공격하였습니다. ");
+        Console.WriteLine("HP는" + HP + "이 남았습니다.");
     }
 }
 
 
 class Player : FightUnit
-{   
+{
     // 필드를 public 으로 만들어서 해결하지 말라
     // 맴버변수는 무조건 private
     // private int AT = 10;
     // private int HP = 50;
     // private int MAXHP = 100;
+    public Player()
+    {
+        Name = "플레이어";
+    }
 
     public int getAT()
     { 
@@ -66,12 +75,18 @@ class Player : FightUnit
 }
 
 class Monster : FightUnit
-{
+{   
+    // 인자값을 만들어 줄 수도 있다.
+    public Monster(string _Name)
+    {
+        Name = _Name;
+        AT = 5;
+    }
+
     public int getHP()
     { 
         return this.HP;
     }
-
 }
 
 namespace TextRPG001
@@ -148,15 +163,28 @@ namespace TextRPG001
 
         static void Battle(Player _Player)
         {
-            Monster NewMonster = new Monster();
+            Monster NewMonster = new Monster("오크");
+            FightUnit NewFight = new FightUnit();
 
-            while (/* 둘중 누군가 죽을때 까지 */ true)
+            int PlayerHp = 1;
+            while (/* 둘중 누군가 죽을때 까지 */ !(PlayerHp <= 0))
             {
+                PlayerHp = _Player.getHP();
+                if (PlayerHp <= 0)
+                {
+                    Console.WriteLine("정신을 잃었습니다. 마을로 돌아갑니다.");
+                    Town(_Player);
+                    break;
+                }
+
                 Console.Clear();
                 _Player.StatusRender();
                 NewMonster.StatusRender();
-                Console.ReadKey();
 
+                NewFight.Damage(NewMonster);
+
+                // 싸우게 만들어라
+                Console.ReadKey();
             }
 
 
@@ -219,7 +247,7 @@ namespace TextRPG001
             //}
 
             Player NewPlayer = new Player();
-            Monster NewMonster = new Monster();
+            Monster NewMonster = new Monster("오크영웅");
 
             while (true)
             {   
