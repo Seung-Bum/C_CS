@@ -15,6 +15,19 @@ class FightUnit
     protected int HP = 50;
     protected int MAXHP = 100;
 
+    public bool IsDeath()
+    {
+        // A = 100
+        // 100 = A
+
+        // 함수도 연산자에 가깝다.
+        // 결과값이 있다.
+        //bool boolDeath = HP <= 0;
+        // 연산자도 함수에 가깝다고 했다.
+
+        return HP <= 0;
+    }
+
     public void StatusRender()
     {
         Console.WriteLine("-------------------------------------");
@@ -31,9 +44,17 @@ class FightUnit
     public void Damage(FightUnit _OtherUnit)
     {
         HP -= _OtherUnit.AT;
-        Console.WriteLine(_OtherUnit.Name + "이 공격하였습니다. ");
-        Console.WriteLine("HP는" + HP + "이 남았습니다.");
+        Console.WriteLine(_OtherUnit.Name + "이 공격 하였습니다. ");
+        Console.WriteLine(Name + "은" + _OtherUnit.AT + " 데미지를 입었습니다.");
+        Console.WriteLine(Name + "HP는" + HP + "이 남았습니다.");
+        Console.WriteLine(" ");
+
+        if (HP <= 0)
+        {
+            Console.WriteLine(_OtherUnit.Name + "님이 승리하였습니다.");            
+        }
     }
+
 }
 
 
@@ -132,7 +153,7 @@ namespace TextRPG001
             // 리턴이 되는 순간 함수를 완전히 종료시킨다.
         }
 
-        static void Town(Player _Player)
+        static STARTSELECT Town(Player _Player)
         {
             while (true)
             {
@@ -154,40 +175,56 @@ namespace TextRPG001
                         //
                         break;
                     case ConsoleKey.D3:
-                        return;
+                        return STARTSELECT.NONESELECT;
                     default:
                         break;
                 }
             }
         }
 
-        static void Battle(Player _Player)
+        static STARTSELECT Battle(Player _Player)
         {
             Monster NewMonster = new Monster("오크");
-            FightUnit NewFight = new FightUnit();
+            // FightUnit NewFight = new FightUnit();
 
-            int PlayerHp = 1;
-            while (/* 둘중 누군가 죽을때 까지 */ !(PlayerHp <= 0))
+            int PlayerHp = _Player.getHP();
+
+            while ( false == NewMonster.IsDeath() && false == _Player.IsDeath() )
             {
-                PlayerHp = _Player.getHP();
-                if (PlayerHp <= 0)
-                {
-                    Console.WriteLine("정신을 잃었습니다. 마을로 돌아갑니다.");
-                    Town(_Player);
-                    break;
-                }
+                
+                //if (PlayerHp <= 0)
+                //{
+                //    Console.WriteLine("정신을 잃었습니다. 마을로 돌아갑니다.");
+                //    Town(_Player);
+                //    break;
+                //}
 
                 Console.Clear();
                 _Player.StatusRender();
                 NewMonster.StatusRender();
 
-                NewFight.Damage(NewMonster);
+                NewMonster.Damage(_Player);
+                if (false == NewMonster.IsDeath())
+                {
+                    _Player.Damage(NewMonster);
+                }
 
-                // 싸우게 만들어라
+                
+                // NewFight.Damage(NewMonster);
+                Console.ReadKey();
+            }
+
+            if (true == NewMonster.IsDeath() || true == _Player.IsDeath() )
+            {
+                Console.WriteLine(" 싸움이 결판 났습니다.");
+
                 Console.ReadKey();
             }
 
 
+            
+
+            return STARTSELECT.NONESELECT;
 
             /*
             while (true)
@@ -249,18 +286,25 @@ namespace TextRPG001
             Player NewPlayer = new Player();
             Monster NewMonster = new Monster("오크영웅");
 
+            STARTSELECT SelectCheck = StartSelect();
             while (true)
-            {   
+            {
                 // 함수 자체의 용도를 생각해라
-                STARTSELECT SelectCheck = StartSelect();
+                //if (SelectCheck == STARTSELECT.NONESELECT)
+                //{
+                //    SelectCheck = StartSelect();
+                //}
 
                 switch (SelectCheck)
                 {
+                    case STARTSELECT.NONESELECT:
+                        SelectCheck = StartSelect();
+                        break;
                     case STARTSELECT.SELECTTOWN:
-                        Town(NewPlayer);
+                        SelectCheck = Town(NewPlayer);
                         break;
                     case STARTSELECT.SELECTBATTLE:
-                        Battle(NewPlayer);
+                        SelectCheck = Battle(NewPlayer);
                         break;
                     default:
                         break;
