@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\26Property\bin\Debug\net6.0\26Property.exe
+F:\git\C_Basic\CS\UNITYST\26Property\bin\Debug\net6.0\26Property.deps.json
+F:\git\C_Basic\CS\UNITYST\26Property\bin\Debug\net6.0\26Property.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\26Property\bin\Debug\net6.0\26Property.dll
+F:\git\C_Basic\CS\UNITYST\26Property\bin\Debug\net6.0\26Property.pdb
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.dll
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\refint\26Property.dll
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.pdb
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\26Property.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\26Property\obj\Debug\net6.0\ref\26Property.dll

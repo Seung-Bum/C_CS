@@ -62,9 +62,22 @@ class Player : FightUnit
 {
     // 필드를 public 으로 만들어서 해결하지 말라
     // 맴버변수는 무조건 private
-    // private int AT = 10;
-    // private int HP = 50;
-    // private int MAXHP = 100;
+    private int AT = 10;
+    private int HP = 50;
+    private int m_MAXHP = 100;
+
+    public int MAXHP
+    {
+        set 
+        {
+            m_MAXHP = value;
+        }
+
+        get 
+        {
+            return m_MAXHP;
+        }  
+    }
     public Player()
     {
         Name = "플레이어";
