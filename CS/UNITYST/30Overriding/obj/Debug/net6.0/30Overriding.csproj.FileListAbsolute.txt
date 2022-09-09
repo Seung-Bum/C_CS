@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\30Overriding\bin\Debug\net6.0\30Overriding.exe
+F:\git\C_Basic\CS\UNITYST\30Overriding\bin\Debug\net6.0\30Overriding.deps.json
+F:\git\C_Basic\CS\UNITYST\30Overriding\bin\Debug\net6.0\30Overriding.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\30Overriding\bin\Debug\net6.0\30Overriding.dll
+F:\git\C_Basic\CS\UNITYST\30Overriding\bin\Debug\net6.0\30Overriding.pdb
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.dll
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\refint\30Overriding.dll
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.pdb
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\30Overriding.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\30Overriding\obj\Debug\net6.0\ref\30Overriding.dll
