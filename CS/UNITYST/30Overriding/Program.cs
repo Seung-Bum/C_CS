@@ -18,6 +18,7 @@ class FightUnit
     }
 
     // 프로퍼티는 virtual
+    // 오버라이드 할 때 부모클래스는 virtual을 적용한다.
     protected virtual int DMGAT
     {
         get
