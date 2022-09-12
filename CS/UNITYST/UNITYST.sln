@@ -77,7 +77,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "28Partial", "28Partial\28Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "29OverLoading", "29OverLoading\29OverLoading.csproj", "{0164B551-8A93-4B91-8702-B29A28E4F672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30Overriding", "30Overriding\30Overriding.csproj", "{3B9D641B-EA74-4F76-8318-3D74FCA63378}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "30Overriding", "30Overriding\30Overriding.csproj", "{3B9D641B-EA74-4F76-8318-3D74FCA63378}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "31Interface", "31Interface\31Interface.csproj", "{2B2AE35F-9EE5-45E7-BB03-5ECA470B3870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32Array", "32Array\32Array.csproj", "{3428DA94-428E-4EF6-AB2B-721A2FE6C4A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -213,6 +217,14 @@ Global
 		{3B9D641B-EA74-4F76-8318-3D74FCA63378}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9D641B-EA74-4F76-8318-3D74FCA63378}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9D641B-EA74-4F76-8318-3D74FCA63378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B2AE35F-9EE5-45E7-BB03-5ECA470B3870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2AE35F-9EE5-45E7-BB03-5ECA470B3870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2AE35F-9EE5-45E7-BB03-5ECA470B3870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2AE35F-9EE5-45E7-BB03-5ECA470B3870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3428DA94-428E-4EF6-AB2B-721A2FE6C4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3428DA94-428E-4EF6-AB2B-721A2FE6C4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3428DA94-428E-4EF6-AB2B-721A2FE6C4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3428DA94-428E-4EF6-AB2B-721A2FE6C4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
