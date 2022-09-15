@@ -13,6 +13,7 @@ class Program
 {
     private static void Main(string[] args)
     {
+
         Player NewPlayer = new Player();
         // 가리키는게 없이 비워 놓겠다.
         // 참조형의 데이터 구조를 가리키는 자료형들은 클래스는
