@@ -1,4 +1,5 @@
-﻿class Program
+﻿
+class Program
 {
     private static void Main(string[] args)
     {
@@ -7,6 +8,9 @@
         // *****
         /*Inven NewInven2 = null;
         NewInven2.ItemIn(null, 10);*/
+
+
+        ConsoleKeyInfo cki;
 
         Inven NewInven = new Inven(5, 3);
         // Item NewItem = new Item("철검", 100);
@@ -23,6 +27,8 @@
         NewInven.ItemIn(new Item("철검", 100));
         NewInven.ItemIn(new Item("갑옷", 100));
 
+        NewInven.ItemIn(new Item("마나포션", 10), 10);
+
         // 알아서 처리해 줄거라는 생각 자체를 하지 말라.
         NewInven.ItemIn(new Item("포션", 100), 100);
 
@@ -30,6 +36,24 @@
         {
             Console.Clear();
             NewInven.Render();
+
+            cki = Console.ReadKey();
+            switch (cki.Key)
+            {
+                case ConsoleKey.UpArrow:
+                    break;
+                case ConsoleKey.DownArrow:
+                    break;
+                case ConsoleKey.RightArrow:
+                    NewInven.NextIndex();
+                    break;
+                case ConsoleKey.LeftArrow:
+                    break;
+            }
+
+
+            
+            
             Console.ReadLine();
         }
     }

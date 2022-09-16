@@ -22,6 +22,14 @@ class Inven
     Item[] ArrItem;
     int ItemX;
 
+    public void NextIndex()
+    {
+
+        SelectIndex += 1;
+        Console.WriteLine("");
+        Console.WriteLine("Next");
+    }
+
     // 잘못쓰기도 힘들게 만들어라
     // 인벤토리를 new 하려면 
     // int X와 Y를 넣어주는 방법 밖에 없게 만들었다.
@@ -97,6 +105,11 @@ class Inven
 
     public void Render()
     {
+        if (SelectIndex == ArrItem.Length)
+        {
+            SelectIndex = 0;
+        }
+
         for (int i = 0; i < ArrItem.Length; i++)
         {   
             // i % 5
@@ -110,7 +123,8 @@ class Inven
 
             if (SelectIndex == i)
             {
-                Console.WriteLine("★");
+                Console.Write("▣");
+                continue;
             }
 
             if (null == ArrItem[i])
@@ -123,10 +137,14 @@ class Inven
             }
         }
 
-        Console.WriteLine("");
-        Console.WriteLine("현재 선택한 아이템");
-        Console.WriteLine("이름 : " + ArrItem[SelectIndex].Name);
-        Console.WriteLine("가격 : " + ArrItem[SelectIndex].Gold);
+        if (null != ArrItem[SelectIndex])
+        {
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("현재 선택한 아이템");
+            Console.WriteLine("이름 : " + ArrItem[SelectIndex].Name);
+            Console.WriteLine("가격 : " + ArrItem[SelectIndex].Gold);
+        }
 
     }
 }
