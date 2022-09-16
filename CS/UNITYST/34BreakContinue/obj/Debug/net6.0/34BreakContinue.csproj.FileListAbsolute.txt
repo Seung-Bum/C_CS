@@ -1,0 +1,15 @@
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\bin\Debug\net6.0\34BreakContinue.exe
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\bin\Debug\net6.0\34BreakContinue.deps.json
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\bin\Debug\net6.0\34BreakContinue.runtimeconfig.json
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\bin\Debug\net6.0\34BreakContinue.dll
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\bin\Debug\net6.0\34BreakContinue.pdb
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.AssemblyInfo.cs
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.dll
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\refint\34BreakContinue.dll
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.pdb
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\34BreakContinue.genruntimeconfig.cache
+F:\git\C_Basic\CS\UNITYST\34BreakContinue\obj\Debug\net6.0\ref\34BreakContinue.dll

@@ -15,6 +15,9 @@ using System.Threading.Tasks;
 // x * y
 class Inven
 {
+    // 
+    int SelectIndex = 0;
+
     // 만들어 질 때
     Item[] ArrItem;
     int ItemX;
@@ -47,6 +50,51 @@ class Inven
         ArrItem = new Item[(_X * _Y)];
     }
 
+    // 객체의 교류
+    // 인벤은 아이템이 필요해요
+    public void ItemIn(Item _Item)
+    {
+        // 내가 짠코드
+        /*for (int i = 0; i < ArrItem.Length; i++)
+        {
+            if (null == ArrItem[i])
+            {
+                ArrItem[i] = _Item;
+                break;
+            }
+        }*/
+
+        int Index = 0;
+
+        for (int i = 0; i < ArrItem.Length; i++)
+        {
+            if (null == ArrItem[i])
+            {
+                Index = i;
+                break;
+            }
+        }
+
+        ArrItem[Index] = _Item;
+    }
+
+    //
+    public void ItemIn(Item _Item, int _Order)
+    {
+        // System.IndexOutOfRangeException 방어코드 만들어 보세요
+        if (_Order > ArrItem.Length)
+        {
+            return;
+        }
+        else if (null != ArrItem[_Order])
+        {
+            return;
+        }
+
+        ArrItem[_Order] = _Item;
+    }
+
+
     public void Render()
     {
         for (int i = 0; i < ArrItem.Length; i++)
@@ -59,16 +107,27 @@ class Inven
 
             // 15개의 아이템을 가질 수 있는 인벤
             // i번째에 아이템이 있니?
+
+            if (SelectIndex == i)
+            {
+                Console.WriteLine("★");
+            }
+
             if (null == ArrItem[i])
             {
-                Console.WriteLine("□");
+                Console.Write("□");
             }
             else
             {
-                Console.WriteLine("■");
+                Console.Write("■");
             }
-               
         }
+
+        Console.WriteLine("");
+        Console.WriteLine("현재 선택한 아이템");
+        Console.WriteLine("이름 : " + ArrItem[SelectIndex].Name);
+        Console.WriteLine("가격 : " + ArrItem[SelectIndex].Gold);
+
     }
 }
 
