@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 // x * y
 class Inven
 {
-    // 
+    // 인벤토리의 커서
     int SelectIndex = 0;
 
     // 만들어 질 때
@@ -24,10 +24,34 @@ class Inven
 
     public void NextIndex()
     {
-
         SelectIndex += 1;
         Console.WriteLine("");
         Console.WriteLine("Next");
+        Console.ReadLine();
+    }
+
+    public void BeforeIndex()
+    {
+        SelectIndex -= 1;
+        Console.WriteLine("");
+        Console.WriteLine("Before");
+        Console.ReadLine();
+    }
+
+    public void UpperIndex()
+    {
+        SelectIndex -= 5;
+        Console.WriteLine("");
+        Console.WriteLine("Upper");
+        Console.ReadLine();
+    }
+
+    public void DownIndex()
+    {
+        SelectIndex += 5;
+        Console.WriteLine("");
+        Console.WriteLine("Down");
+        Console.ReadLine();
     }
 
     // 잘못쓰기도 힘들게 만들어라
@@ -86,7 +110,14 @@ class Inven
         ArrItem[Index] = _Item;
     }
 
-    //
+    public void ItemOut()
+    {
+        Console.WriteLine(ArrItem[SelectIndex].Name + "을 삭제합니다.");
+        Console.ReadLine();
+        ArrItem[SelectIndex] = null;
+    }
+
+
     public void ItemIn(Item _Item, int _Order)
     {
         // System.IndexOutOfRangeException 방어코드 만들어 보세요
@@ -145,7 +176,13 @@ class Inven
             Console.WriteLine("이름 : " + ArrItem[SelectIndex].Name);
             Console.WriteLine("가격 : " + ArrItem[SelectIndex].Gold);
         }
-
     }
+
+
+
+
+
+
+
 }
 

@@ -1,4 +1,6 @@
 ﻿
+using System.Threading;
+
 class Program
 {
     private static void Main(string[] args)
@@ -8,7 +10,6 @@ class Program
         // *****
         /*Inven NewInven2 = null;
         NewInven2.ItemIn(null, 10);*/
-
 
         ConsoleKeyInfo cki;
 
@@ -41,20 +42,23 @@ class Program
             switch (cki.Key)
             {
                 case ConsoleKey.UpArrow:
+                    NewInven.UpperIndex();
                     break;
                 case ConsoleKey.DownArrow:
+                    NewInven.DownIndex();
                     break;
                 case ConsoleKey.RightArrow:
                     NewInven.NextIndex();
                     break;
                 case ConsoleKey.LeftArrow:
+                    NewInven.BeforeIndex();
+                    break;
+                case ConsoleKey.D:
+                    NewInven.ItemOut();
                     break;
             }
 
-
             
-            
-            Console.ReadLine();
         }
     }
 }
