@@ -1,0 +1,17 @@
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\CSPractice.exe
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\CSPractice.deps.json
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\CSPractice.runtimeconfig.json
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\CSPractice.dll
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\CSPractice.pdb
+F:\git\C_Basic\CS\CSPractice\CSPractice\bin\Debug\net6.0\NCalc.dll
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.csproj.AssemblyReference.cache
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.GeneratedMSBuildEditorConfig.editorconfig
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.AssemblyInfoInputs.cache
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.AssemblyInfo.cs
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.csproj.CoreCompileInputs.cache
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.csproj.CopyComplete
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.dll
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\refint\CSPractice.dll
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.pdb
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\CSPractice.genruntimeconfig.cache
+F:\git\C_Basic\CS\CSPractice\CSPractice\obj\Debug\net6.0\ref\CSPractice.dll

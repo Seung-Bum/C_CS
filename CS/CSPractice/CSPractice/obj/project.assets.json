@@ -1,11 +1,39 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "CoreCLR-NCalc/2.2.110": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NCalc.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NCalc.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CoreCLR-NCalc/2.2.110": {
+      "sha512": "t7Dq3mHKJhNcGz8LM0bmF9DZKjnhnbEKsnjXkg0fZ6BLFaK9j7Bmzd3VrQsCVJBbvbrOIjF17hYFdLtpmxX+og==",
+      "type": "package",
+      "path": "coreclr-ncalc/2.2.110",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "coreclr-ncalc.2.2.110.nupkg.sha512",
+        "coreclr-ncalc.nuspec",
+        "lib/net45/NCalc.dll",
+        "lib/netstandard1.3/NCalc.dll",
+        "lib/netstandard2.0/NCalc.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "CoreCLR-NCalc >= 2.2.110"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\SeungBum\\.nuget\\packages\\": {}
@@ -45,6 +73,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "CoreCLR-NCalc": {
+            "target": "Package",
+            "version": "[2.2.110, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

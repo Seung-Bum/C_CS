@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C8HrZ9UleqxjhKhqdMfxHXtMu4EraSOepcR9yGL1EO9/e9tVnrGw6bdsQy/a1Qit62q80tzO1W3yu11Jxs3k9Q==",
+  "dgSpecHash": "uI6NTBdr1JEM++O9plFvqb24lBgKKk6hbLW55bNaCIqMOb6+1fwIwDrizrNNa1kRf1FsajIqet8pQUAvxG5SQA==",
   "success": true,
   "projectFilePath": "F:\\git\\C_Basic\\CS\\CSPractice\\CSPractice\\CSPractice.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\SeungBum\\.nuget\\packages\\coreclr-ncalc\\2.2.110\\coreclr-ncalc.2.2.110.nupkg.sha512"
+  ],
   "logs": []
 }

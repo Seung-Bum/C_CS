@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "CoreCLR-NCalc": {
+              "target": "Package",
+              "version": "[2.2.110, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
