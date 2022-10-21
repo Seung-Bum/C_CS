@@ -8,30 +8,55 @@ using System.Xml.Linq;
 
 namespace CSPractice
 {   
-    //C:\Users\SeungBum\Desktop
     internal class ForeachXml
     {
-        
+
         public void foreachXml()
         {
             //Read the XML file.
-
-            XmlDocument doc = new XmlDocument();
-            doc.Load("c:\\test.xml");
-
-            XmlNode node = doc.DocumentElement.SelectSingleNode("grid");
-
-            foreach (var coordinate in node)
+            try
             {
-                Console.WriteLine(coordinate);
-                //this.coordinates[this.counter][0] = coordinate.Attribute("time").Value;
-                //this.coordinates[this.counter][1] = coordinate.Element("initial").Value;
-                //this.coordinates[this.counter][2] = coordinate.Element("final").Value;
-                //this.counter++;
-            };
+                XmlDocument doc = new XmlDocument();
+                doc.Load("C:\\test.xml");
+
+                XmlNode node = doc.SelectSingleNode("grid");
+
+                Console.WriteLine(node.InnerXml); // 최상위 노드
+
+                foreach (XmlNode coordinate in node)
+                {
+                    Console.WriteLine(coordinate.LocalName); // coordinate => LocalName은 Attribute의 이름
+                    Console.WriteLine(coordinate.Attributes[0].Value); // 78 => Value는 Attribute의 값
+
+                    foreach (XmlNode coordinateNode in coordinate)
+                    {
+                        Console.WriteLine(coordinateNode.LocalName);
+                        Console.WriteLine(coordinateNode.InnerText);
+                    }
+                };
+
+
+            }
+            catch (XmlException e)
+            {
+                throw;
+            }
+
+
         }
-
-
-
     }
 }
+
+
+
+/*
+ * test.xml
+ * 
+<? xml version = "1.0" encoding = "UTF-8" ?>
+< grid >
+    < coordinate time = "78" >
+        < initial > 540:672 </ initial >
+        < final > 540:672 </ final >
+    </ coordinate >
+</ grid >
+*/
