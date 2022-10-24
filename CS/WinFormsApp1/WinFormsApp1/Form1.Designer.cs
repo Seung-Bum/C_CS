@@ -35,27 +35,28 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(602, 385);
+            this.button1.Location = new System.Drawing.Point(598, 367);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(138, 41);
+            this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(215, 392);
+            this.textBox1.Location = new System.Drawing.Point(91, 367);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(273, 27);
+            this.textBox1.Size = new System.Drawing.Size(453, 27);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(55, 39);
+            this.textBox2.Location = new System.Drawing.Point(91, 62);
+            this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(639, 27);
+            this.textBox2.Size = new System.Drawing.Size(606, 281);
             this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Form1
             // 
